@@ -89,6 +89,16 @@
         .feature-card h3 { font-family: var(--font-heading); color: var(--primary-glow); font-size: 1.5rem; margin-top: 1rem; }
         .feature-card .icon { font-size: 3rem; text-shadow: 0 0 15px var(--primary-glow); }
         .feature-card p { line-height: 1.7; font-size: 0.9rem; }
+        /* CSS */
+        .hero-subtitle {
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 2%;
+            width: 100%;
+            font-size: 1.5rem;
+            color: white;
+            }
 
         /* --- UPGRADED ABOUT SECTION --- */
         .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center; }
@@ -178,7 +188,12 @@
                 <h1 class="hero-title">
                     <span class="glitch-text" data-text="Loop Indian RolePlay">Loop Indian RolePlay</span>
                 </h1>
-                <p class="hero-subtitle animate-on-load" style="text-align: center;" data-delay="0.4">Your story is waiting to be written in the most immersive RP server.</p>
+                <!-- HTML -->
+                <div class="hero-container">
+                <p class="hero-subtitle">Your story is waiting to be written in the most immersive RP server.</p>
+                </div>
+
+                <!-- <p class="hero-subtitle animate-on-load" style="text-align: center;" data-delay="0.4">Your story is waiting to be written in the most immersive RP server.</p> -->
                 <a href="https://discord.gg/AU6sFQFuhQ" target="_blank" class="cta-btn animate-on-load" data-delay="0.6">Join Discord Now</a>
             </div>
         </section>
