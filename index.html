@@ -2,59 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="script/main.css">
-    <title>Loop Indian RolePlay</title>
+    <title>Loop Indian RolePlay | Welcome</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <header>
+
+    <header class="hero-section">
         <div class="container">
-        <div class="nav-bar">
-            <ul>
-                <li class="nav"><a href="index.html">Home</a></li>
-                <li class="nav"><a href="#">About Us</a></li>
-                <li class="nav"><a href="#">Forms</a>
-                <div class="sub-menu-3">
-                    <ul>
-                        <li class="nav2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf5v79VF7-XqMcHd2qroDB2_As4mjSEscQvugE1Sj7-EEA6AA/viewform?usp=sf_link">EMS</a></li>
-                        <li class="nav2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSennqZOm4tPdknGaujedB3wf6-rVw9ezJfa77rHbQaIfu--Rw/viewform?usp=sf_link">LSPD</a></li>
-                        <li class="nav2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdgfFSRnczQHE17Xh0q7La-icByZKfOCabqY2wLzGKUycXhYQ/viewform?usp=sf_link">Mechanic</a></li>
-                        <li class="nav2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdR4ZBgaSBW1g2YrLPc_PBNcZgK8YCunUZoTrS94gsYLZcZ6A/viewform?usp=sf_link">PDM</a></li>
-                        <li class="nav2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdoNiyH0nrzDanRNE06JuSrHiLMlZKUVGAkQ8xNFWISApZSqg/viewform?usp=sf_link">GANG</a></li>
-                    </ul>
-                </div></li>
-                <li class="nav"><a href="#">Rules</a></li>
-                <li class="nav"><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="logo">
-            <a href="index.html" class="log"></a>
-        </div>
-        <div class="heading">
-            <h1>Loop Indian RolePlay</h1>
-        </div>
-        <div class="dis1">
-            <p>This is our RolePLay server</p>
-            <a href="https://discord.gg/AU6sFQFuhQ" class="btn cta-btn">Join Discord</a>
-        </div>
+            <nav class="main-nav">
+                <a href="index.html" class="logo">
+                    <img src="https://i.imgur.com/uC0V6h6.png" alt="Loop Indian RolePlay Logo">
+                </a>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Forms <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf5v79VF7-XqMcHd2qroDB2_As4mjSEscQvugE1Sj7-EEA6AA/viewform?usp=sf_link" target="_blank">EMS</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSennqZOm4tPdknGaujedB3wf6-rVw9ezJfa77rHbQaIfu--Rw/viewform?usp=sf_link" target="_blank">LSPD</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdgfFSRnczQHE17Xh0q7La-icByZKfOCabqY2wLzGKUycXhYQ/viewform?usp=sf_link" target="_blank">Mechanic</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdR4ZBgaSBW1g2YrLPc_PBNcZgK8YCunUZoTrS94gsYLZcZ6A/viewform?usp=sf_link" target="_blank">PDM</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdoNiyH0nrzDanRNE06JuSrHiLMlZKUVGAkQ8xNFWISApZSqg/viewform?usp=sf_link" target="_blank">GANG</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Rules</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+
+            <div class="hero-content">
+                <h1 class="hero-title">Loop Indian RolePlay</h1>
+                <p class="hero-subtitle">Experience the ultimate roleplay server. Your story begins here.</p>
+                <a href="https://discord.gg/AU6sFQFuhQ" target="_blank" class="cta-btn">Join Our Discord</a>
+            </div>
         </div>
     </header>
-    <header>
-    <section class="images">
-        <div class="img"></div>
-        <div class="head">
-            <h3>Memories</h3>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-card">
+                <img src="https://i.imgur.com/3Yd3e7r.jpg" alt="Server Memories" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h2 class="gallery-title">Memories</h2>
+                </div>
+            </div>
         </div>
     </section>
-</header>
-<section class="copyright">
-    <div class="heading2">
-        <h4>Copyright © 2021. Disclaimer</h4>
-    </div>
-    <div class="para">
-        <p>All content in this website is Non-Copyrighted and Free, if you are using some of our content then make sure to mention us :D it will be a kind help for us to reach more nice people like you. Some images or any type of content may be Paid or Copyrighted but those things will be mentioned already so if anything happens then we are not responsible for any issues.</p>
-    </div>
-</section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <h4>Copyright © 2025 Loop Indian RolePlay</h4>
+            <p>All content on this website is proprietary. If you are inspired by our content, please credit our server. We are not responsible for any issues arising from the misuse of copyrighted materials mentioned on external links.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+
 </body>
 </html>
